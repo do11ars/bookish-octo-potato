@@ -21,7 +21,7 @@ stderr_logfile=/dev/stderr
 stderr_logfile_maxbytes=0
 
 [program:cloudflared]
-command=cloudflared access tcp --hostname ://domain.com --url localhost:3306
+command=cloudflared access tcp --hostname tcp.write.dpdns.org --url localhost:3306
 autorestart=true
 stdout_logfile=/dev/stdout
 stdout_logfile_maxbytes=0
